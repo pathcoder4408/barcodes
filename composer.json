@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "pathcoder4408/barcoder",
+    "description": "laravel filament admin barcoder",
     "keywords": [
-        ":vendor_name",
+        "pathcoder4408",
         "laravel",
-        ":package_slug"
+        "barcoder"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/pathcoder4408/barcoder",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "pathcoder4408",
+            "email": "leleux@envisionpathology.com",
             "role": "Developer"
         }
     ],
@@ -37,13 +37,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Pathcoder4408\\Barcoder\\": "src",
+            "Pathcoder4408\\Barcoder\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Pathcoder4408\\Barcoder\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Pathcoder4408\\Barcoder\\BarcoderServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Barcoder": "Pathcoder4408\\Barcoder\\Facades\\Barcoder"
             }
         }
     },

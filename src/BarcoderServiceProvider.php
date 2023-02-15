@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Pathcoder4408\Barcoder;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Pathcoder4408\Barcoder\Commands\BarcoderCommand;
 
-class SkeletonServiceProvider extends PluginServiceProvider
+class BarcoderServiceProvider extends PluginServiceProvider
 {
     protected array $pages = [
     ];
@@ -18,21 +18,21 @@ class SkeletonServiceProvider extends PluginServiceProvider
     ];
 
     protected array $styles = [
-        //'skeleton-styles' => __DIR__ . '/../dist/app.css',
+        //'barcoder-styles' => __DIR__ . '/../dist/app.css',
     ];
 
     protected array $scripts = [
-        //'skeleton-scripts' => __DIR__ . '/../dist/app.js',
+        //'barcoder-scripts' => __DIR__ . '/../dist/app.js',
     ];
 
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('skeleton')
+            ->name('barcoder')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_barcoder_table')
+            ->hasCommand(BarcoderCommand::class);
     }
     /*
     public function packageConfiguring(Package $package): void
