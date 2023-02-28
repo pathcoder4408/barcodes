@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "pathcoder4408/barcodes",
+    "description": "This is my package barcodes",
     "keywords": [
-        ":vendor_name",
+        "pathcoder4408",
         "laravel",
-        ":package_slug"
+        "barcodes"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/pathcoder4408/barcodes",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Todd M. LeLeux, MD",
+            "email": "53309628+pathcoder4408@users.noreply.github.com",
             "role": "Developer"
         }
     ],
@@ -37,13 +37,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Pathcoder4408\\Barcodes\\": "src",
+            "Pathcoder4408\\Barcodes\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Pathcoder4408\\Barcodes\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Pathcoder4408\\Barcodes\\BarcodesServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Barcodes": "Pathcoder4408\\Barcodes\\Facades\\Barcodes"
             }
         }
     },

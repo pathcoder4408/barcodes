@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Pathcoder4408\Barcodes\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BarcodesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'barcodes';
 
     public $description = 'My command';
 
